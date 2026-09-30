@@ -1,42 +1,72 @@
 # AI PDF Assistant
 
-An AI-powered PDF Assistant that allows users to upload PDF documents, generate summaries, and ask questions about the uploaded content using Large Language Models (LLMs).
+An AI-powered PDF Question Answering system built using Retrieval-Augmented Generation (RAG).
+
+Users can upload PDF documents, extract content, create vector embeddings, perform semantic search using FAISS, and generate intelligent responses using Large Language Models.
 
 ## Features
 
-- Upload PDF documents
-- Extract and process PDF content
-- Generate intelligent summaries
-- Ask questions about document contents
-- Conversational chat interface
-- Context-aware responses
-- User-friendly interface
+✅ PDF Text Extraction
+
+✅ Text Chunking
+
+✅ Semantic Search
+
+✅ Sentence Transformer Embeddings
+
+✅ FAISS Vector Database
+
+✅ RAG-based Question Answering
+
+✅ OpenRouter Integration
+
+✅ Local LLM Support (Phi-2)
 
 ## Tech Stack
 
 - Python
 - Google Colab
-- LangChain
-- FAISS / ChromaDB
-- Hugging Face Embeddings
-- Groq / OpenAI LLM
-- PyPDF
-- Streamlit
+- PyPDF2
+- Sentence Transformers
+- FAISS
+- Hugging Face Transformers
+- OpenRouter
+- Phi-2
 
-## Project Workflow
+## Workflow
 
-1. Upload PDF document
-2. Extract text from PDF
-3. Split text into chunks
-4. Generate vector embeddings
-5. Store embeddings in vector database
-6. Retrieve relevant context
-7. Generate AI-powered answers
+PDF Upload
+↓
+Text Extraction
+↓
+Chunking
+↓
+Embeddings
+↓
+FAISS Index
+↓
+Semantic Retrieval
+↓
+LLM Response Generation
 
-## Installation
+## Example Questions
 
-Clone the repository:
+- Summarize this document.
+- What are the key skills mentioned?
+- Extract project experience.
+- Highlight technical qualifications.
 
-```bash
-git clone https://github.com/ayush123yadav456-lgtm/AI-pdf-assistant.git
-cd AI-pdf-assistant
+## Future Enhancements
+
+- Streamlit Interface
+- Multi-PDF Support
+- Chat History
+- Source Citations
+- ChromaDB Vector Store
+- Deployment to Hugging Face Spaces
+
+## Author
+
+Ayush Yadav
+
+Cost Control Engineer | Abu Dhabi
